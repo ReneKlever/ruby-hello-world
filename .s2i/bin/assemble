@@ -19,7 +19,7 @@ export RACK_ENV=${RACK_ENV:-"production"}
 echo "---> Installing application source ..."
 cp -Rf /tmp/src/. ./
 
-echo "---> Building your Ruby application from source ..."
+echo "---> Building your Ruby application from source ...."
 if [ -f Gemfile ]; then
   ADDTL_BUNDLE_ARGS=""
   if [ -f Gemfile.lock ]; then
